@@ -3,7 +3,7 @@ body {
     color: #000;
 }
 #wrapper {
-    background-color: rgba(50,75,20,.4);
+    background-color: #fff;
     position: absolute;
     width: 100%;
 }
@@ -104,19 +104,17 @@ body {
     text-align: center;
 }
 
-#wrapper #contents section h1,
-#wrapper #contents section h2 {
-    text-align: center;
-    color: #305089;
-}
-
 #wrapper #contents section h1 {
     font-size: 100px;
+    color: #000;
+    padding-top: 50vh;
 }
 
 #wrapper #contents section h2 {
     font-size: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto;
+    color: #305089;
+    text-align: center;
 }
 
 #wrapper #contents section #section01 #section-inner {
@@ -126,10 +124,17 @@ body {
     transform: translate(0,-50%)
 }
 
-#wrapper #contents #section02 p,li,
+#wrapper #contents #section02 p, #wrapper #contents #section02 .introduce,
 #wrapper #contents #section04 p {
   color:black;
-  font-size:20px;
+  font-size:30px;
+  padding: 40px auto;
+}
+
+#wrapper #contents #section02 li{
+  color: black;
+  font-size: 20px;
+  padding-bottom: 40px;
 }
 
 /*scroll animation*/
@@ -143,6 +148,14 @@ body {
 
 [data-scroll="out"] {
   opacity: 0;
+}
+
+/*header Image*/
+#section01{
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
 }
 
 /*slider*/
@@ -179,20 +192,21 @@ body {
   padding: 4% 0;
 }
 
+#section04 .sns_link, #section04 li{
+  font-size: 30px;
+  margin: 30px 30px auto 15px;
+}
+
 #section04 p{
   margin-bottom: 30px;
 }
 
-#section04 .sns-wrapper{
-  display: flex;
-  justify-content: space-between;
-}
-
 #section04 .subtitle{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-bottom: 2px #0bd solid;
 }
 
 .sns-box{
   width: 30%;
+  margin: 0 auto;
 }
