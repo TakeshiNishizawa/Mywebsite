@@ -137,6 +137,12 @@ body {
   padding-bottom: 40px;
 }
 
+img.profile_1 {
+  height: 20%;
+  width: 20%;
+  float: right;
+}
+
 /*scroll animation*/
 [data-scroll] {
   transition: opacity 1s;
