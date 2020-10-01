@@ -157,10 +157,16 @@ img.profile_1 {
 }
 
 /*header Image*/
-#section01{
+#section01 {
   background-image: url(../images/header.jpg);
   background-size: cover;
   min-height: 100vh;
+  background-position: center;
+}
+
+#section04 {
+  background-image: url(../images/profile_2.jpg);
+  background-size: cover;
   background-position: center;
 }
 
@@ -214,5 +220,5 @@ img.profile_1 {
 
 .sns-box{
   width: 30%;
-  margin: 0 auto;
+  float: right;
 }
